@@ -1,0 +1,66 @@
+.rsp-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 142px;
+  width: 979px;
+  margin-left: 200px;
+  margin-top: 112px;
+  background-color: transparent;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.data-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+.data {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+
+.red {
+  color: #ff073a;
+}
+.green {
+  color: #28a745;
+}
+.blue {
+  color: #007bff;
+}
+.grey {
+  color: #6c757d;
+}
+.confirmed:hover {
+  background: #331427;
+}
+
+.active:hover {
+  background: #132240;
+}
+
+.recovered:hover {
+  background: #182829;
+}
+
+.deceased:hover {
+  background: #212230;
+}

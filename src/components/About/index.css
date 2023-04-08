@@ -1,0 +1,47 @@
+.bg-container {
+  background-color: #161625;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.about-container {
+  margin-top: 146px;
+  margin-left: 150px;
+  width: 80%;
+  min-height: 100vh;
+}
+.about-heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-pg {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+.about-side-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e2e8f0;
+}
+
+.faq-container {
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,60 @@
+.table-container {
+  width: 1146px;
+  margin-left: 120px;
+  margin-top: 106px;
+  border-radius: 12px;
+  background-color: #1e1e30;
+  border-radius: 12px;
+  border-color: lightslategray;
+  border-style: solid;
+  border-width: 1px;
+}
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sort-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 234px;
+}
+.sort-button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+.sort-icon {
+  width: 40px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+}
+.data-head {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  width: 100px;
+}
+.state-head {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
